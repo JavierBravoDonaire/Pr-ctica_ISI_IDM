@@ -11,4 +11,3 @@ javac -cp ../hamcrest-core-1.3.jar:../junit-4.12.jar:. *Test.java
 javac -cp ../hamcrest-core-1.3.jar:../junit-4.12.jar:. AllTests.java
 java  -cp ../hamcrest-core-1.3.jar:../junit-4.12.jar:. AllTests
 ```
-En el ejercicio de black friday se tiene que cambiar e introducir como un parámetro la fecha que es.
