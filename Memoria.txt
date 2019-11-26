@@ -1,0 +1,42 @@
+1. Bisiestos:
+
+Este programa admite como entrada números enteros.
+
+Los bloques que hemos elegido son los siguientes:
+
+- B1: números enteros negativos.
+- B2: cero.
+- B3: números enteros positivos.
+	- B31: años bisiestos
+	- B32: años no bisiestos
+
+2. Embotelladora:
+
+Este programa admite como entrada números enteros
+(Botellas pequeñas, Botellas grandes, Litros totales)
+
+Los bloques que hemos elgido son los siguientes:
+
+- B1:
+	- Botellas pequeñas: Numeros negativos
+	- Botellas grandes: Numeros positivos
+	- Litros totales: Numeros positivos
+
+- B2:
+	- Botellas pequeñas: Numeros positivos
+	- Botellas grandes: Numeros negativos
+	- Litros totales: Numeros positivos
+
+- B3:
+	- Botellas pequeñas: Numeros positivos
+	- Botellas grandes: Numeros positivos
+	- Litros totales: Numeros negativos
+
+- B4:
+	- Botellas pequeñas < Litros totales - 5 * Botellas grandes
+
+- B5:
+	- Botellas pequeñas = Litros totales - 5 * Botellas grandes
+
+- B6:
+	- Botellas pequeñas > Litros totales - 5 * Botellas grandes
