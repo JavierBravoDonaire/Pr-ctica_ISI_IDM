@@ -12,8 +12,8 @@ public class DescuentoBlackFriday {
     // un descuento de porcentajeDescuento
     // Eleva la excepción InvalidParameter si precioOriginal es negativo
 
-    public double PrecioFinal(double precioOriginal, double porcentajeDbescuento)
-           throws InvalidParameter{
+    public double precioFinal(double precioOriginal, double porcentajeDbescuento)
+           throws InvalidParameterException{
         
         if(precioOriginal < 0 || porcentajeDbescuento < 0 ||
            porcentajeDbescuento > 100){
@@ -26,7 +26,7 @@ public class DescuentoBlackFriday {
         //Note: +1 the month for current month
         int month = calendar.get(Calendar.MONTH) + 1;
         if (day == 29 && month == 11){
-            return precioOrginal * (1 - porcentajeDbescuento/100);
+            return precioOriginal * (1 - porcentajeDbescuento/100);
         }else{
             return precioOriginal;
         }
