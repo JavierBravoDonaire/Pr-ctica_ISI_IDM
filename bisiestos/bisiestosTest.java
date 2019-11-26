@@ -50,7 +50,7 @@ public class bisiestosTest
    {
 	   int año[] = {0,4,8,12,16,20,1,24,1904,1912,1972,2004,1964,1968};
 	   for(int i = 0; i < año.length; i++){
-		   assertEquals("Array Años Bisiesto con año no bisiesto:", true, Bisiestos.esBisiesto(año[i]));
+		   assertEquals("Array Años Bisiesto con año no bisiesto:", false, Bisiestos.esBisiesto(año[i]));
 	   }
    }
 }
