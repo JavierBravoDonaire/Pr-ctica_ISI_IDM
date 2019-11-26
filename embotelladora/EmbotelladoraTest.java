@@ -13,7 +13,7 @@ public class EmbotelladoraTest
         int bGran = 4;
         Embotelladora.calculaBotellasPequenas(bPeq, bGran, litros);
    }
-   
+
     @Test (expected = InvalidParameterException.class)
    public void testForInvalidParameter2()
    {
@@ -22,7 +22,7 @@ public class EmbotelladoraTest
         int bGran = 4;
         Embotelladora.calculaBotellasPequenas(bPeq, bGran, litros);
    }
-   
+
     @Test (expected = InvalidParameterException.class)
    public void testForInvalidParameter3()
    {
@@ -31,7 +31,7 @@ public class EmbotelladoraTest
         int bGran = -4;
         Embotelladora.calculaBotellasPequenas(bPeq, bGran, litros);
    }
-   
+
     // NoSolution: bPeq < litros - 5*bGran
     @Test (expected = NoSolution.class)
    public void testNoSolution()
@@ -39,9 +39,9 @@ public class EmbotelladoraTest
 		int litros = 100;
         int bPeq = 3;
         int bGran = 4;
-        Embotelladora.calculaBotellasPequenas(bPeq, bGran, litros));
+        Embotelladora.calculaBotellasPequenas(bPeq, bGran, litros);
    }
-   
+
    // IgualCapacidad: bPeq = litros - 5*bGran
    @Test public void testIgualCapacidad()
    {
@@ -51,7 +51,7 @@ public class EmbotelladoraTest
         assertEquals("igual Capacidad:", litros - 5*bGran,
                      Embotelladora.calculaBotellasPequenas(bPeq, bGran, litros));
    }
-   
+
    // Mayor Capacidad: bPeq > litros - 5*bGran
    @Test public void testMayorCapacidad()
    {
