@@ -12,7 +12,7 @@ public class DescuentoBlackFriday {
     // un descuento de porcentajeDescuento
     // Eleva la excepción InvalidParameter si precioOriginal es negativo
 
-    public double precioFinal(double precioOriginal, double porcentajeDbescuento)
+    public static double precioFinal(double precioOriginal, double porcentajeDbescuento)
            throws InvalidParameterException{
         
         if(precioOriginal < 0 || porcentajeDbescuento < 0 ||
