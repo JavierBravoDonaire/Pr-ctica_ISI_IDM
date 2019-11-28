@@ -24,11 +24,11 @@ public class RomanNumeral {
 	}
 
 	public static int convierte (String s) throws InvalidParameterException{
-		if (s.contains("IIII") || s.contains("XXX") || s.contains("CCC")
-	    		|| s.contains("MMM") || s.contains("VV") || s.contains("LL")
+		if (s.contains("IIII") || s.contains("XXXX") || s.contains("CCCC")
+	    		|| s.contains("MMMM") || s.contains("VV") || s.contains("LL")
 	    		|| s.contains("DD") || s.contains("VL") || s.contains("VIV")
 	    		|| s.contains("XXM") || s.contains("CXM") || s.contains("XID")
-				|| s.contains("LC")){
+			|| s.contains("LC")){
 					throw new InvalidParameterException("No es un número romano");
 		}
 		return calculoRecursivo(s);
