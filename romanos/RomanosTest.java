@@ -40,13 +40,13 @@ public class RomanosTest
 
    @Test public void test3()
    {
-		String n = "LCCXXIX";
+		String n = "DCCXXIX";
         assertEquals("test 3:", 729, RomanNumeral.convierte(n));
    }
-   
+
     @Test public void test4()
    {
-		String n = "MLCCXXII";
+		String n = "MDCCXXII";
         assertEquals("test 4:", 1722, RomanNumeral.convierte(n));
    }
 }
