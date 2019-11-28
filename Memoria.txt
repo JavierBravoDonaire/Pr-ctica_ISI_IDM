@@ -40,3 +40,37 @@ Los bloques que hemos elgido son los siguientes:
 
 - B6:
 	- Botellas pequeñas > Litros totales - 5 * Botellas grandes
+
+3. Black Friday:
+
+Este programa admite como entrada 2 números enteros.
+
+Los bloques que hemos elegido son los siguientes:
+
+-B1:
+	- Precio: Número negativo
+	- Porcentaje: Número menor que 0 o mayor que 100
+-B2:
+	- Precio: Número igual a cero
+	- Porcentaje: Número menor que 0 o mayor que 100
+-B3:
+	- Precio: Número mayor que cero
+	- Porcentaje: Número menor que 0 o mayor que 100
+-B4:
+	- Precio: Número negativo
+	- Porcentaje: Número entre 0 y 100
+-B5:
+	- Precio: Número igual a cero
+	- Porcentaje: Número entre 0 y 100
+-B6:
+	- Precio: Número mayor que cero
+	- Porcentaje: Número entre 0 y 100
+
+4. Números Romanos:
+
+Este programa admite como entrada una string.
+
+Los bloques que hemos elegido son los siguientes:
+
+- B1: String incorrecta como número romano
+- B2: String correcta como número romano
